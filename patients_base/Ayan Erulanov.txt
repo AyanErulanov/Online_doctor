@@ -1,0 +1,17 @@
+Dear Ayan Erulanov Dr.Kira Kosarin will be waiting for you on 13.04.2023 at 12:00 for appointment
+Patient data-base:
+Gender: Male 
+age: 23
+
+Dear Ayan Erulanov Dr.Aijan Rahimova will be waiting for you on 13.04.2023 at 12:00 for appointment
+Patient data-base:
+Gender: Male 
+age: 30
+Doctor specialization:ophtalmolog
+Doctor name: Aijan Rahimova
+өDear Ayan Erulanov Dr.Bekzhan Askhatov will be waiting for you on 12.04.2023 at 11:00 for appointment
+Patient data-base:
+Gender: Male 
+age: 32
+Doctor specialization:traumalog
+Doctor name: Bekzhan Askhatov
