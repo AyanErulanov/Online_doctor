@@ -1,5 +1,4 @@
 ﻿#include <iostream>
-#include <vector>
 #include <string>
 #include <fstream>
 
@@ -24,7 +23,7 @@ struct Appointment {
     string time;
 };
 
-vector<Appointment> appointments;
+
 void addAppointment(Doctor doctor, Patient patient, string date,string time) {
     ofstream fout;
     fout.open("C:\\Users\\сулпакэ\\OneDrive\\Рабочий стол\\c++ esepter\\doctor\\patients_base\\"+patient.name+".txt",ofstream::app);
@@ -35,7 +34,6 @@ void addAppointment(Doctor doctor, Patient patient, string date,string time) {
         fout << "Dear " << patient.name << " " << "Dr." << doctor.name << " will be waiting for you on " << date << " at " << time << " for appointment"<<endl;
         fout << "Patient data-base:\n" << "Gender: " << patient.gender << "\nage: " << patient.age<<"\nDoctor specialization:"<<doctor.specialization<<"\nDoctor name: "<<doctor.name<<endl;
         Appointment appointment = { doctor, patient, date };
-        appointments.push_back(appointment);
         cout << "Appointment added successfully!" << endl;
         cout << "Dear " << patient.name << " " << "Dr." << doctor.name << " will be waiting for you on " << date << " at " << time << " for appointment" << endl;
     }
